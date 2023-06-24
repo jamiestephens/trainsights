@@ -1,0 +1,133 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+}
+
+#root > div {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 10%;
+  background-color: #f2f2f2;
+  height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  background-color: #ffffff;
+  display: flex; /* Added */
+  flex-direction: column; /* Added */
+}
+
+/* Adjustments for sidebar content and header */
+
+.sidebar-content {
+  padding: 20px;
+  margin-top: 75px;
+}
+
+.sidebar header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #ff0000;
+}
+
+/* Adjustments for app header */
+
+.app-header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.leaflet-loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.leaflet-loading-text {
+  color: white;
+  font-size: 24px;
+}
+
+.train-details {
+  display: flex;
+}
+
+.train-map {
+  flex: 3; /* Takes 75% of available space */
+}
+
+.train-sidebar {
+  flex: 1; /* Takes 25% of available space */
+  overflow-y: auto;
+}
+
+.train-cards-container {
+  height: 500px; /* Set the desired height for the sidebar */
+}
+
+.train-cards {
+  display: grid;
+  grid-template-columns: 1fr; /* Adjust the number of columns as needed */
+  grid-gap: 10px; /* Set the desired gap between cards */
+  padding: 10px;
+}
+
+.train-card {
+  height: 100px; /* Set the fixed height for each card */
+  background-color: #f2f2f2; /* Set the background color for the cards */
+  /* Additional styling for the cards */
+  /* ... */
+}
+
+.full-map {
+  height: 70vh !important;
+}

@@ -1,0 +1,32 @@
+[
+ {
+   "LocationName": "Fort Union Trading Post National Historic Site",
+   "Latitude": 47.99930549,
+   "Longitude": -104.0407168,
+   "Description": "Fort Union Trading Post was a vital trading hub in the 19th century. Passengers can spot the reconstructed fort from the train."
+ },
+ {
+   "LocationName": "Old Montana State Prison",
+   "Latitude": 46.3887,
+   "Longitude": -112.7297,
+   "Description": "As the train approaches Deer Lodge passengers may catch a glimpse of the Old Montana State Prison. This historic prison is known for its Gothic architecture and intriguing history."
+ },
+ {
+   "LocationName": "Historic Buildings in Missoula",
+   "Latitude": 46.8721,
+   "Longitude": -113.994,
+   "Description": "Passengers can observe several historic building like the Wilma Theater and the Missoula County Courthouse. These architectural gems showcase the town's rich history and character."
+ },
+ {
+   "LocationName": "St. Ignatius Mission",
+   "Latitude": 47.3169,
+   "Longitude": -114.0907,
+   "Description": "The St. Ignatius Mission is a beautiful Catholic church known for its stunning murals and historic significance. Passengers can spot the mission from the train as it passes through the area."
+ },
+ {
+   "LocationName": "Union Station",
+   "Latitude": 47.598,
+   "Longitude": -122.3308,
+   "Description": "This historic train station has a distinct Beaux-Arts architecture and serves as a gateway to the city and offers a glimpse into Seattle's past."
+ }
+]
